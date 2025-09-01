@@ -1,0 +1,60 @@
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  flex-direction: column;
+}
+
+.app-main {
+  flex: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.controls-section {
+  margin-bottom: 2rem;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  min-height: 400px;
+}
+
+.app-footer {
+  background: rgba(255, 255, 255, 0.95);
+  text-align: center;
+  padding: 1rem;
+  color: #7f8c8d;
+  backdrop-filter: blur(10px);
+  margin-top: auto;
+}
+
+.app-footer p {
+  margin: 0.2rem 0;
+}
+
+.app-footer small {
+  font-size: 0.8rem;
+  color: #95a5a6;
+}
+
+@media (max-width: 768px) {
+  .app-main {
+    padding: 1rem;
+  }
+  
+  .content-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .app-footer {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+}
