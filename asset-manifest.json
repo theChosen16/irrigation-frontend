@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/irrigation-frontend/static/css/main.a32f1a0c.css",
+    "main.js": "/irrigation-frontend/static/js/main.4586ccad.js",
+    "static/js/453.073d1411.chunk.js": "/irrigation-frontend/static/js/453.073d1411.chunk.js",
+    "index.html": "/irrigation-frontend/index.html",
+    "main.a32f1a0c.css.map": "/irrigation-frontend/static/css/main.a32f1a0c.css.map",
+    "main.4586ccad.js.map": "/irrigation-frontend/static/js/main.4586ccad.js.map",
+    "453.073d1411.chunk.js.map": "/irrigation-frontend/static/js/453.073d1411.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a32f1a0c.css",
+    "static/js/main.4586ccad.js"
+  ]
+}
